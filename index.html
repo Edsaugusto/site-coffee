@@ -45,7 +45,7 @@
   </nav>
   <main>
     <!-- carousel -->
-    <div id="carousel-coffee" class="carousel slide">
+    <header id="carousel-coffee" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active" aria-current="true"
           aria-label="Slide 1"></button>
@@ -90,7 +90,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
+    </header>
     <!--Quote-->
     <figure>
       <blockquote class="blockquote">
@@ -148,6 +148,30 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="container mt-5 mb-5">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="espressos-tab" data-bs-toggle="tab" data-bs-target="#espressos-tab-pane" type="button" role="tab" aria-controls="espressos-tab-pane" aria-selected="true">Expressos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="cappuccionos-tab" data-bs-toggle="tab" data-bs-target="#cappuccionos-tab-pane" type="button" role="tab" aria-controls="cappuccionos-tab-pane" aria-selected="false">Capuccinos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="iced-coffee-tab" data-bs-toggle="tab" data-bs-target="#iced-coffee-tab-pane" type="button" role="tab" aria-controls="iced-coffee-tab-pane" aria-selected="false">Gelados</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="especials-coffee-tab" data-bs-toggle="tab" data-bs-target="#especials-coffee-tab-pane" type="button" role="tab" aria-controls="especials-coffee-tab-pane" aria-selected="false">Especiais</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="espressos-tab-pane" role="tabpanel" aria-labelledby="espressos-tab" tabindex="0">casa</div>
+        <div class="tab-pane fade" id="cappuccionos-tab-pane" role="tabpanel" aria-labelledby="cappuccionos-tab" tabindex="0">capuccionos</div>
+        <div class="tab-pane fade" id="iced-coffee-tab-pane" role="tabpanel" aria-labelledby="iced-coffee-tab" tabindex="0">cafés gelados</div>
+        <div class="tab-pane fade" id="especials-coffee-tab-pane" role="tabpanel" aria-labelledby="especials-coffee-tab" tabindex="0">gelados</div>
       </div>
     </section>
   </main>
