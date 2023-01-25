@@ -155,7 +155,9 @@
     <section id="menu" class="container mt-5 mb-5">
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="espressos-tab" data-bs-toggle="tab" data-bs-target="#espressos-tab-pane" type="button" role="tab" aria-controls="espressos-tab-pane" aria-selected="true">Expressos</button>
+          <button class="nav-link active" id="espressos-tab" data-bs-toggle="tab" data-bs-target="#espressos-tab-pane" type="button" role="tab" aria-controls="espressos-tab-pane" aria-selected="true">
+            Expressos
+          </button>
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="cappuccionos-tab" data-bs-toggle="tab" data-bs-target="#cappuccionos-tab-pane" type="button" role="tab" aria-controls="cappuccionos-tab-pane" aria-selected="false">Capuccinos</button>
@@ -167,8 +169,48 @@
           <button class="nav-link" id="especials-coffee-tab" data-bs-toggle="tab" data-bs-target="#especials-coffee-tab-pane" type="button" role="tab" aria-controls="especials-coffee-tab-pane" aria-selected="false">Especiais</button>
         </li>
       </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="espressos-tab-pane" role="tabpanel" aria-labelledby="espressos-tab" tabindex="0">casa</div>
+      <div class="tab-content" id="coffeesTabContent">
+        <div class="tab-pane fade show active" id="espressos-tab-pane" role="tabpanel" aria-labelledby="espressos-tab" tabindex="0">
+          <!--cofee cards-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="http://source.unsplash.com/random/?coffee&1/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="http://source.unsplash.com/random/?coffee&2/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="http://source.unsplash.com/random/?coffee&3/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="http://source.unsplash.com/random/?coffee&4/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="tab-pane fade" id="cappuccionos-tab-pane" role="tabpanel" aria-labelledby="cappuccionos-tab" tabindex="0">capuccionos</div>
         <div class="tab-pane fade" id="iced-coffee-tab-pane" role="tabpanel" aria-labelledby="iced-coffee-tab" tabindex="0">cafés gelados</div>
         <div class="tab-pane fade" id="especials-coffee-tab-pane" role="tabpanel" aria-labelledby="especials-coffee-tab" tabindex="0">gelados</div>
